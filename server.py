@@ -1,7 +1,7 @@
 from mcp.server.fastmcp import FastMCP
 
 
-mcp = FastMCP("simple_server", host = "0.0.0.0", port = "8000")
+mcp = FastMCP("simple_server", host = "0.0.0.0", port = "10000")
 
 @mcp.tool()
 def server_echo(msg: str) -> str:
